@@ -1,0 +1,11 @@
+body 
+{
+	
+	background-image:url("../images/message.jpg");
+	background-position:center;
+	background-size:cover;
+	font-family:sans-serif;
+	margin-top="40px";
+	font-size:25px;
+	color:white;
+}

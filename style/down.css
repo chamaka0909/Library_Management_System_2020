@@ -1,0 +1,62 @@
+ 
+
+
+
+body{
+	background-image:url("../images/back211.jpg");
+	background-position:center;
+	background-size:cover;
+}
+
+
+
+
+.ddata{
+	padding:15px;
+	margin-top:10px;
+	margin-right:100px;
+	margin-left:100px;
+	margin-bottom:10px;
+	width:500px;
+	background-color:rgb(0,0,0,0.6);
+	border-radius:15px 15px 15px 15px;
+	color:white;
+
+}
+
+
+
+.btn1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:blue;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+  font: normal 14px 'Cookie', cursive;
+}
+
+
+
+.btn2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:green;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 100px;
+  margin: 5px;
+  font: normal 14px 'Cookie', cursive;
+}
+
+ 
+
+
+ 

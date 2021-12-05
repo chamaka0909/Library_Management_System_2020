@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/myScripts.js"></script>
+<link rel="stylesheet" href="style/subject.css"/>
+ 
+
+</head>
+<body>
+<div >
+<header>
+<nav>
+
+<ul class ="menu">
+
+<img src ="images/img1.png" height ="15%" width ="15%" align ="left" title = "PRIME LIBRARY">
+<a href="default.asp"><img src ="images/img2.png" class ="login" height ="10%" width ="10%" align ="right" title = "LOGIN"></a>
+<p class ="heder"  style="font: normal 50px 'Courier', cursive"> <b>PRIME LIBRARY</b></p>
+
+<h3>
+<li class="menu"><a href="home.html" ></i> Home</a></li>
+<li class="menu"><a href ="Membership.html"> New Registration</a></li>
+<li class="menu"><a href ="contact.html">Contact Us</a></li>
+<li class="menu"><a href ="user.php">User Account</a></li>
+</h3>
+
+
+<form class = "searchbar">
+<input type ="txt" placeholder ="Search ">
+<button class ="btn"><b>Search</b></button>
+</form>
+
+</ul>
+</nav>
+</header>
+</div>	
+
+<br> <br>
+
+<center>
+<p class="sub1">Subjects</p>
+<div> 
+<button type="button" class="btnn" id="button1" onclick="loadData('button1')"><span>EItems </span></button> 
+<button type="button" class="btnn" id="button2" onclick="loadData('button2')"><span>Papers </span></button> 
+<button type="button" class="btnn" id="button3" onclick="loadData('button3')"><span>Novels </span></button> 
+</div>
+
+
+
+</center>
+
+
+<br><br>
+
+
+<center>
+<div> 
+
+
+<table>
+<tr>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read.html">
+	<img class="logo" id="log" src="images/i/i1.svg">
+	</a> 
+	</div>
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Architecture</p>		
+</td>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read1.html">	
+	<img class="logo" id="log" src="images/i/i3.svg">
+	</a>
+	</div>	
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chemistry</p>	
+</td>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read2.html">	
+	<img class="logo" id="log" src="images/i/i10.svg">
+	</a>
+	</div>	
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Physics</p>	
+</td>
+</tr>
+<tr>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read3.html">
+	<img class="logo" id="log" src="images/i/i4.svg">
+	</a> 
+	</div>
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Earth & Science</p>	
+</td>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read.html">	
+	<img class="logo" id="log" src="images/i/i5.svg">
+	</a>
+	</div>
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Law & Crime</p>
+	
+</td>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read1.html">	
+	<img class="logo" id="log" src="images/i/i11.svg">
+	</a>
+	</div>	
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mathematics</p>	
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read2.html">
+	<img class="logo" id="log" src="images/i/i9.svg">
+	</a> 
+	</div>
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Medicine</p>	
+</td>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read3.html">	
+	
+	<img class="logo" id="log" src="images/i/i7.svg">
+	</a>
+	</div>
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Art & Applied</p>	
+</td>
+<td>
+	<div class="ddata2" style="border-style:inset">
+	<a href="Read2.html">	
+	<img class="logo" id="log" src="images/i/i12.svg">
+	</a>
+	</div>	
+	<p class="labe1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Geography</p>	
+</td>
+</tr>
+ 
+	 
+</table>
+</div>
+</center>
+ <center>
+<table>
+<tr><td>
+<a href="Read.html"><img id="img1" class="logo1" ></a>
+<p id="para1" class="para1"> </p>
+</td>
+<td>
+<a href="Read1.html"><img id="img2" class="logo1" ></a>
+<p id="para2" class="para1"> </p>
+</td><td>
+<a href="Read2.html"><img id="img3" class="logo1" ></a>
+<p id="para3" class="para1"> </p>
+</td></tr>
+</table>
+</center>
+<br>
+</center>
+
+
+<form action="connect1.php" method="post" target="_self">
+<p class="para1">Name</p>
+<input type="text" name="name"><br>
+<p class="para1">Comment</p>
+<input type="text" name="comment"><br>
+<input type="submit" class="btnn1" value="Add Comment">	
+</form>
+
+<a href="comment.php">
+<input type="button" class="btnn1" value="Comments">
+</a> </br>
+
+<a href="administor.php">
+<input type="button" class="btnn1" value="Add Books">
+</a>
+
+
+ 
+
+ <footer class="footer-distributed">
+ 
+		<div class="footer-left"> 
+		<h3>Prime<span>Library</span></h3> 
+		<p class="footer-links">
+		
+		<a href="#" >Follow Us On :-</a><br>	
+		<a href="#" class="footer-company-about">Facebook</a></br>	
+		<a href="#" class="footer-company-about">Instagram</a><br>	
+		<a href="#" class="footer-company-about">Twitter</a><br>	
+		<a href="#" class="footer-company-about">Google Plus</a><br>
+		</p> 
+		
+		<a href="#" ><img class="media" src ="images/f1.png"  ></a>
+		<a href="#" ><img class="media" src ="images/f2.png"  ></a>
+		<a href="#" ><img class="media" src ="images/f3.png"  ></a>
+		<a href="#" ><img class="media" src ="images/f4.png"  ></a>
+		
+		
+		
+		</div>
+ 
+ 
+		<div class="footer-center">
+		<br><br>
+
+		
+		<p class="footer-company-about">
+	
+		<a href="#" style="color:white;">Online Assistant</a></br>
+	
+		<a href="#" style="color:white;">Our Services</a><br>
+	
+		<a href="#" style="color:white;">Payments :-</a><br>
+		
+		<a href="#" ><img  class ="pay" src ="images/pay.png" ></a>
+	
+		</p><br><br>
+		<div>
+		<p style="color:white;" class="footer-company-about">21 Galle Road, Colombo 5, SriLanka</p>
+		</div>
+ 
+		<div>
+		<i></i>
+		<p style="color:white;" class="footer-company-about">011-3456789</p>
+		</div>
+ 
+		<div>
+		<p class="footer-company-about" style="color:white;><a href="prime@gmail.com">contact@primelibrary.com</a></p>
+		</div>		
+		
+ 
+
+		</div>
+ 
+		<div class="footer-right">
+        <br><br>
+
+		
+		<p style="color:white;" class="footer-company-about">
+		About the company<br>
+	Prime Library is based in the SriLanka,with its registered office in the National Library.
+		</p>
+ 
+		<br><br><br>
+ 
+ 
+		<p class="footer-company-name">Prime Library &copy; 2020</p> 
+		</div>
+ 
+		</footer>
+ 
+
+
+
+</body>
+</html>
