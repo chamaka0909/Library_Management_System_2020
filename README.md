@@ -2,13 +2,13 @@
 
 This project is developed for assignment purposes in our university. 
 
+This system was developed by using HTML, CSS, JavaScript, Php, and SQL.
+
 This library management system is software that is designed to manage all the functions of a library. 
 
 It helps librarians to maintain the database of new books and the books that are borrowed by members along with their due dates. 
 
 This system completely automates all your library's activities.
-
-This system was developed by using HTML, CSS, JavaScript, Php, and SQL.
 
 
 ![Screenshot (4363)](https://user-images.githubusercontent.com/95535148/147233676-08b1fde1-088e-485b-a4a7-0f0deb7b78b9.png)
