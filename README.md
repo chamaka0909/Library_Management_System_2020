@@ -1,14 +1,16 @@
 # Library_Management_System_2020
 
-◾ This project is developed for assignment purposes in our university. 
+This system has been developed for assignment purposes in our university the second-year second semester and I  scored an 'A' Grade for this “ITP” module assignment. This system can manage all the functions related to the Tutoring Management  System. I engaged in the below areas in this project.
 
-◾ This system was developed by using HTML, CSS, JavaScript, Php, and SQL.
+◾  I  worked as a team leader in this project.
 
-◾ This library management system is software that is designed to manage all the functions of a library. 
+◾  I develop the Financial Management part in this system.
 
-◾ It helps librarians to maintain the database of new books and the books that are borrowed by members along with their due dates. 
+◾  I mainly used Laravel Framework and Bootstrap in this system.
 
-◾ This system completely automates all your library's activities.
+◾  I applied all the crud operations and other new features in this system.
+
+◾ I implemented the email service and report generating (PDF format) part in this system.
 
 
 
